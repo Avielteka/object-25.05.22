@@ -246,21 +246,22 @@
 
 // object 24 
 
-// function printApartMent(num){
-//     for(var i = 0;i<num;i++){
-//         var apartMent = {}
-//         apartMent.addres = prompt("enter adress");
-//         apartMent.price = prompt("enter price renting");
-//         apartMent.buyingprice = prompt("enter buying price");
-//         apartMent.array = ["cohen","feldma","teka"];
-//        apartMent.mediation =  confirm("is there mediation");
-//         if(apartMent.mediation==false){
-//             document.write(apartMent.addres + " " + apartMent.price + " " + apartMent.buyingprice + " " + apartMent.arra + " "  + apartMent.mediation)
+function printApartMent(num){
+    for(var i = 0;i<num;i++){
+        var apartMent = {}
+        apartMent.addres = prompt("enter adress");
+        apartMent.price = +prompt("enter price renting");
+        apartMent.buyingprice = +prompt("enter buying price");
+        apartMent.array = [prompt(),prompt(),prompt()];
+       apartMent.mediation =  confirm("is there mediation");
+        if(apartMent.mediation==false){
+            document.write(apartMent.addres + " " + apartMent.price + " " + apartMent.buyingprice + " " + apartMent.arra + " "  + apartMent.mediation)
 
-//         }
-//     }
-// }
+        }
+    }
+}
 // printApartMent(2);
+
 
 // object 25
 
